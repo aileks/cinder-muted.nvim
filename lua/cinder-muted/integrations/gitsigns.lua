@@ -1,0 +1,18 @@
+return {
+  GitSignsAdd = { fg = 'success' },
+  GitSignsChange = { fg = 'quaternary' },
+  GitSignsDelete = { fg = 'error' },
+  GitSignsTopdelete = { fg = 'error' },
+  GitSignsChangedelete = { fg = 'warning' },
+  GitSignsUntracked = { fg = 'success' },
+  GitSignsAddNr = { fg = 'success' },
+  GitSignsChangeNr = { fg = 'quaternary' },
+  GitSignsDeleteNr = { fg = 'error' },
+  GitSignsAddLn = { bg = 'surface' },
+  GitSignsChangeLn = { bg = 'surface' },
+  GitSignsDeleteLn = { bg = 'surface' },
+  GitSignsAddInline = { fg = 'success', bg = 'surface', bold = true },
+  GitSignsChangeInline = { fg = 'quaternary', bg = 'surface', bold = true },
+  GitSignsDeleteInline = { fg = 'error', bg = 'surface', bold = true },
+  GitSignsCurrentLineBlame = { fg = 'text_muted', italic = true },
+}

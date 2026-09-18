@@ -16,6 +16,6 @@ return {
   warning = '#ffbd9b',
   success = '#d98c63',
   info = '#944d24',
-  purple = '#ab6139',
-  cyan = '#c2764e',
+  tertiary = '#ab6139',
+  quaternary = '#c2764e',
 }
