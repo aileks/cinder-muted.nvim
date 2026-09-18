@@ -1,8 +1,8 @@
 # Cinder Muted for Neovim
 
-A thin layer over [cinder-grove.nvim](https://github.com/aileks/cinder-grove.nvim): the muted palette feeds grove's palette overrides, so every highlight group, plugin integration, and terminal color re-resolves in ember tones. cinder-grove.nvim must be installed alongside.
+A [cinder-grove.nvim](https://github.com/aileks/cinder-grove.nvim) colorscheme with the Cinder Muted palette. Requires cinder-grove.nvim.
 
-The palette is generated from the [cinder-muted monorepo](https://github.com/aileks/cinder-muted); `lua/cinder-muted/palette.lua` regenerates there and syncs into this repo.
+`lua/cinder-muted/palette.lua` is generated in the [cinder-muted monorepo](https://github.com/aileks/cinder-muted).
 
 ## lazy.nvim
 
@@ -38,7 +38,7 @@ vim.cmd.colorscheme('cinder-muted')
 
 ## Options
 
-Any options passed to `require('cinder-grove').setup()` survive; the muted palette merges into the active grove config.
+Options passed to `require('cinder-grove').setup()` survive. The muted palette merges into the active config.
 
 ```lua
 require("cinder-grove").setup({
@@ -48,4 +48,4 @@ require("cinder-grove").setup({
 vim.cmd.colorscheme('cinder-muted')
 ```
 
-lualine picks the theme up through `theme = 'auto'`. fzf.vim and minimap.vim work through `require('cinder-grove.extras')` as documented in grove's README.
+lualine picks the theme up through `theme = 'auto'`. fzf.vim and minimap.vim work through `require('cinder-grove.extras')` as documented in cinder-grove.nvim's README.
